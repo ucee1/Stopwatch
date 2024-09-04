@@ -1,0 +1,38 @@
+/* Stopwatch.css */
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch-time {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.stopwatch-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stopwatch-buttons button:hover {
+    background-color: #45a049;
+}
+
+.stopwatch-buttons button:active {
+    background-color: #388e3c;
+}
+
+.stopwatch-buttons button:focus {
+    outline: none;
+}
