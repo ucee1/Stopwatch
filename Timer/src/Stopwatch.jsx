@@ -5,6 +5,7 @@ import './Stopwatch.css';
 const Stopwatch = () => {
     const [time, setTime] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
+    console.log(time)
 
     useEffect(() => {
         let interval;
